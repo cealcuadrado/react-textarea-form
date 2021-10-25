@@ -1,7 +1,9 @@
+import MyForm from "../my-form/MyForm";
+
 function Layout() {
     return (
         <div class="layout">
-            <p>Hola, mundo!</p>
+            <MyForm/>
         </div>
     );
 }
